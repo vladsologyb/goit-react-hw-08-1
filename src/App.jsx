@@ -10,6 +10,7 @@ import RestrictedRoute from "./components/restrictedRoute/RestrictedRoute";
 import { useDispatch, useSelector } from 'react-redux'
 import './App.css'
 
+
 const HomePage = lazy(() => import("./pages/homePage/HomePage"));
 const RegisterPage = lazy(() =>
   import("./pages/registrationPage/RegistrationPage")
